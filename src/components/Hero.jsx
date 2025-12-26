@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, Instagram } from 'lucide-react';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -61,6 +61,9 @@ const Hero = () => {
                                 </a>
                                 <a href="mailto:aryanbhardwajkumar9@gmail.com" className="text-gray-400 hover:text-accent transition-colors transform hover:scale-110" aria-label="Email Me">
                                     <Mail className="w-6 h-6" />
+                                </a>
+                                <a href="https://www.instagram.com/aryan_bhardwaj_28/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#E1306C] transition-colors transform hover:scale-110" aria-label="Instagram Profile">
+                                    <Instagram className="w-6 h-6" />
                                 </a>
                                 <a href="https://leetcode.com/u/aryan_bhardwaj_28/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FFA116] transition-colors transform hover:scale-110" aria-label="LeetCode Profile">
                                     <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
