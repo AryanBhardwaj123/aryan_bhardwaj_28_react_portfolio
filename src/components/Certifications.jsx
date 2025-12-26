@@ -12,21 +12,21 @@ const Certifications = () => {
             title: "Data Structures & Algorithms in C++",
             issuer: "Apna College",
             category: "Coding & DSA",
-            date: "2024",
+            date: "2025",
             image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=600&auto=format&fit=crop" // Placeholder
         },
         {
             title: "Full Stack Web Development",
             issuer: "Udemy / Coursera",
             category: "Web Development",
-            date: "2024",
+            date: "2025",
             image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=600&auto=format&fit=crop" // Placeholder
         },
         {
             title: "MERN Stack Specialization",
             issuer: "Online Platform",
             category: "Web Development",
-            date: "2024",
+            date: "2025",
             image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=600&auto=format&fit=crop" // Placeholder
         },
         // Add more certificates as needed
@@ -57,8 +57,8 @@ const Certifications = () => {
                             key={index}
                             onClick={() => setFilter(cat)}
                             className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${filter === cat
-                                    ? 'bg-primary text-white shadow-lg shadow-primary/25 scale-105'
-                                    : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+                                ? 'bg-primary text-white shadow-lg shadow-primary/25 scale-105'
+                                : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
                                 }`}
                         >
                             {cat}
