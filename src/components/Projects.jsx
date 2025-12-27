@@ -41,6 +41,24 @@ const Projects = () => {
             github: "#",
             demo: "#",
             color: "from-pink-500 to-rose-500"
+        },
+        {
+            title: "Loan Tracker Application",
+            desc: "A full-stack Loan Tracker application built to help students monitor and manage their education loan utilization efficiently. The platform includes expense tracking, real-time analytics, and a clean, user-friendly dashboard.",
+            tech: ["React", "Node.js", "Express.js", "MongoDB", "MERN"],
+            category: "Full Stack",
+            github: "#",
+            demo: "#",
+            color: "from-emerald-500 to-teal-500"
+        },
+        {
+            title: "AR Furniture Shopping Website",
+            desc: "An Augmented Reality–based furniture shopping website that enhances the online shopping experience. Users can visualize furniture in real time using AR for immersive product interaction.",
+            tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "AR"],
+            category: "Full Stack",
+            github: "#",
+            demo: "#",
+            color: "from-violet-600 to-fuchsia-600"
         }
     ];
 
@@ -71,8 +89,8 @@ const Projects = () => {
                                 key={cat}
                                 onClick={() => setFilter(cat)}
                                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 border border-white/10 ${filter === cat
-                                        ? 'bg-primary text-white shadow-[0_0_15px_rgba(14,165,233,0.5)]'
-                                        : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+                                    ? 'bg-primary text-white shadow-[0_0_15px_rgba(14,165,233,0.5)]'
+                                    : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
                                     }`}
                             >
                                 {cat}
