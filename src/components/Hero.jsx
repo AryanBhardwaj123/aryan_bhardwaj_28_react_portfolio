@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ArrowDown, Instagram } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, Instagram, Youtube } from 'lucide-react';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -70,6 +70,9 @@ const Hero = () => {
                                         <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.016L9.814 5.08l5.209-5.517a1.374 1.374 0 0 0 0-1.946l-1.54-1.542V0Z" />
                                         <path d="M22.464 9.162a1.375 1.375 0 0 0-.961.438L17.8 13.313a5.526 5.526 0 0 0-.02 7.787 5.526 5.526 0 0 0 7.787-.02l3.705-3.713a1.375 1.375 0 0 0 0-1.946l-1.54-1.542a1.375 1.375 0 0 0-1.945 0l-3.705 3.713a2.763 2.763 0 1 1-3.908-3.908l3.703-3.713a1.375 1.375 0 0 0 .025-1.946L21.362 9.1a1.375 1.375 0 0 0-.898-.938Z" transform="translate(-4, -4)" />
                                     </svg>
+                                </a>
+                                <a href="https://www.youtube.com/@aryan_bhardwaj_28/videos" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#FF0000] transition-colors transform hover:scale-110" aria-label="YouTube Profile">
+                                    <Youtube className="w-6 h-6" />
                                 </a>
                             </div>
                         </motion.div>
